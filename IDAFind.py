@@ -857,7 +857,7 @@ def show_search_dialog():
         if PLUGIN_SEARCH_DIALOG.isActiveWindow():
             plugin_debug("Window already active.")
             # I guess refresh status?
-            PLUGIN_SEARCH_DIALOG.update_status()
+            PLUGIN_SEARCH_DIALOG.refresh_status()
             return
 
     vdui, widget = get_pseudocode_vdui()
