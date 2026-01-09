@@ -4,12 +4,18 @@
 ![Short, GIF demo of IDAFind for non-collapsed presentation](./media/Demo.gif)
 > For a more detailed demo, including shortcut action configuration, please see here:
 > <details>
-> TODO
+> 
+> https://github.com/user-attachments/assets/19bf8f4b-7a7c-4f2b-8c83-6bb99c368fa6
+>
 > </details>
 
 ## What is this?
 
 This is a plugin for IDA that implements rich, responsive search functionality to pseudocode widgets, making searching for what you're looking for less cumbersome.
+
+## Versions tested
+
+- IDA Pro 8.3
 
 ## Features
 
@@ -21,6 +27,9 @@ This is a plugin for IDA that implements rich, responsive search functionality t
 - Case insensitive search: does not account for character case in matching.
 - **Highlights**: as you type, all the matched lines of your search query (including wildcard search ones) will be highlighted. To help you focus, **the active match (as seen in the search window) pops out, as other matches are dimmed**. You can even pick your preferred color!
 
+## Installation
+
+Go to your **IDA folder**, in the **plugins** folder, and put **IDAFind.py** there.
 
 ## AI disclaimer
 I put together most of this with Claude. Well, like 80% of it. It was great at early iteration but at some point it was faster for me to start implementing and writing some of the stuff, and handle refactoring. It was kind of really awesome though.
