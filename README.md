@@ -13,6 +13,10 @@
 
 This is a plugin for IDA that implements rich, responsive search functionality to pseudocode widgets, making searching for what you're looking for less cumbersome.
 
+## Versions tested
+
+- IDA Pro 8.3
+
 ## Features
 
 - Save your search settings: your last search settings are saved in your **.idb** file, including your highlight color!
