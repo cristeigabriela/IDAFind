@@ -23,6 +23,9 @@ This is a plugin for IDA that implements rich, responsive search functionality t
 - Case insensitive search: does not account for character case in matching.
 - **Highlights**: as you type, all the matched lines of your search query (including wildcard search ones) will be highlighted. To help you focus, **the active match (as seen in the search window) pops out, as other matches are dimmed**. You can even pick your preferred color!
 
+## Installation
+
+Go to your **IDA folder**, in the **plugins** folder, and put **IDAFile.py** there.
 
 ## AI disclaimer
 I put together most of this with Claude. Well, like 80% of it. It was great at early iteration but at some point it was faster for me to start implementing and writing some of the stuff, and handle refactoring. It was kind of really awesome though.
