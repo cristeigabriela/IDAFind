@@ -25,7 +25,7 @@ from PyQt5.QtWidgets import (
 # Plugin constants
 PLUGIN_NAME = "IdaFind"
 PLUGIN_VERSION = "1.0.1"
-PLUGIN_DEBUG = True  # Prints some debug stuff. Not useful for usage.
+PLUGIN_DEBUG = False  # Prints some debug stuff. Not useful for usage.
 
 # Plugin constants (Repository)
 PLUGIN_REPO = "cristeigabriela/IDAFind"
