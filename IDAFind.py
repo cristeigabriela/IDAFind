@@ -122,7 +122,7 @@ def check_for_updates():
         except Exception as e:
             plugin_warn("Failed version update check...")
             plugin_warn(e)
-            pass  # Silent failure
+            pass
 
     thread = threading.Thread(target=_check, daemon=True)
     thread.start()
